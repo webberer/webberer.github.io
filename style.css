@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio|Roboto');
+
+body {
+	text-align: center; 
+	font-family: Roboto;
+	color: black;
+	background-color: rgb(230,240, 255)
+}
+header {
+	padding-top: 15px;
+}
+ul li {
+	list-style-type: none;
+}
+.headings h1 {
+	margin-bottom: 30px;
+	font-size: 60px;
+	padding-bottom: 60px;
+	padding-top: 40px;
+}
+.headings h2 {
+	margin-bottom: 21px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+.headings h3 {
+	padding-top: 60px;
+}
+a {
+	color: white;
+	text-decoration: none;
+	padding-right: 30px;
+}
+#contact a {
+	color: blue;
+	padding: 50px;
+}
+#contact li {
+	padding-bottom: 25px;
+}
+a:hover {
+	color: red; 
+	text-decoration: underline;
+}
+#contact a:hover {
+	color: red;
+	text-decoration: underline;
+}
+ul li::before{
+	content: none;
+}
+img {
+	padding-top: 20px;
+	height: 40%;
+	width: 30%;
+}
+i {
+	margin-right: 5px
+}
+.headings {
+	background-color: rgb(50, 50, 255);
+	padding-bottom: 130px;
+	color: rgb(230, 240, 255);
+	font-family: cursive;
+}
+#about h2, #work h2, #contact h2 {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#about, #work, #contact {
+	padding: 100px;
+	border-top: 1px solid rgb(150, 150, 150);
+}
+#contact {
+	padding-bottom: 200px;
+}
+#work button {
+	margin-top: 30px;
+}
+#cat {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.footer p{
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+button {
+	color: rgb(255, 255, 255);
+	background-color: rgb(75, 75, 255);
+	border: 0;
+	display: inline-block;
+	border-radius: 5px;
+}
